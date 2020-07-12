@@ -1,0 +1,68 @@
+
+                        PYTHON
+                        
+Python is a popular general purpose programming language 
+used for both large and small-scale applications. With 
+Python, you can discover how to bridge web development and
+data analytics. Python modules interact with a variety of 
+databases, making it an excellent choice for large-scale data 
+analysis.The Python programming language is often the best choice 
+for introductory courses in data science and machine learning. 
+If you've been wondering how to learn python online to advance 
+your career, you've come to the right destination.
+
+                Why Learn Python?
+We recommend these courses for those who wish to learn Python 
+without prior computer programming experience. Python is 
+used in large-scale functions and software engineering jobs, such 
+as game development, machine learning, database management, and more. 
+Regardless of your end goals, this collection covers the fundamentals 
+of programming in Python.
+
+            Our Services with Python
+In this acadamy we will provide full python based course of web 
+development using django as a backend and react framework of javascript
+as front end. Course duration will be 3 months everyday 1 hour full class
+
+                        C#
+
+C# is pronounced "C-Sharp". It is an object-oriented 
+programming language created by Microsoft that runs on the 
+.NET Framework. C# has roots from the C family, and the 
+language is close to other popular languages like C++ and Java.
+The first version was released in year 2002. The latest version, 
+C# 8, was released in September 2019.C# is used for:Mobile applications
+Desktop applications,Web applications,Web services,Web sites,
+Games,VR,Database applications,And much, much more!
+
+We provide 2 months complete course of C# of fare 20000
+
+
+                        JAVA
+
+Java is a popular programming language, created in 1995.
+It is owned by Oracle, and more than 3 billion devices run Java.
+It is used for:Mobile applications (specially Android apps),
+Desktop applications,Web applications,Web servers and application 
+servers,Games,Database connection,And much, much more!
+
+we provide 3 month complete course of fare 20000
+
+                        DATASCIENCE
+
+The Introduction to Data Science class will survey the foundational 
+topics in data science, namely:Data Manipulation,Data Analysis
+with Statistics and Machine Learning,Data Communication with 
+Information Visualization,Data at Scale ,Working with Big Data
+The class will focus on breadth and present the topics briefly 
+instead of focusing on a single topic in depth. This will give 
+you the opportunity to sample and apply the basic techniques of data science.
+
+This course is also a part of our Data Analyst Nanodegree.
+The course will be complete in 2 months. It brieffy explain python
+libraries like numpy and pandas.
+
+
+The Fare of all the courses are 20000. You can pay money directly once or
+you can pay monthly 10000 for 2 months continue. The fare should be payied
+before completion of course.
