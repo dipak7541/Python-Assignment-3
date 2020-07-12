@@ -1,7 +1,7 @@
 import sys
 import csv
 import os.path
-
+import shutil
 
 def course_inquiry():
     f=open("python.txt","r")
@@ -87,10 +87,26 @@ def detail_information():
     else:
         sys.exit()
 def delete_information():
-    pass
-
-
-
+    user_name=input("Enter your name")
+    
+    fieldnames = ['Name','Email','Phone_No','Course',"Address","FullPay","HalfPay"]
+    with open('userinformation.csv', 'r') as csvfile, open('output.csv', 'w') as outputfile:
+        reader = csv.DictReader(csvfile, fieldnames=fieldnames)
+        writer = csv.DictWriter(outputfile, fieldnames=fieldnames)
+        for row in reader:
+            if not user_name == row['Name']:
+                if row["FullPay"]=="True":
+                    writer.writeheader()
+                    writer.writerow({'Name':row['Name'],'Email':row['Email'],'Phone_No':row['Phone_No'],'Course':row['Course'],"Address":row['Address'],"FullPay":row['FullPay'],"HalfPay":row['HalfPay']})
+                else:
+                    print("Your Payment Is not Completed Please Pay before deleting accout")
+    shutil.move('output.csv','userinformation.csv')
+    goback=input("Enter q to goback to main menu or Enter anykey to exit from App")
+    if goback=="q":
+        startFunction()
+    else:
+        sys.exit()
+    
 def startFunction():
     print("\t\twelcome to the IT acedamy")
     courses=['Python','C#','JAVA',"Data Science"]
@@ -100,7 +116,7 @@ def startFunction():
     print("Please Choose your Options")
     print(" 1. Inquiry About The Courses \n 2. Registration \n 3. Udpate Information \n 4. Details Information \n 5. Delete")
     choice=int(input("Enter your option"))
-    if choice>0 and choice<5:
+    if choice>0 and choice<6:
         if choice==1:
             course_inquiry()
         elif choice==2:
